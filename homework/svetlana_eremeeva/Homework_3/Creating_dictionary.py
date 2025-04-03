@@ -11,12 +11,12 @@ my_dict = {
     "set": {1.1, 2.2, 3.3, 4.4, 5.5}
 }
 
-#"tuple"
+# "tuple"
 # Вывод последнего элемента из кортежа
 print(my_dict["tuple"][-1])
 
 
-#"list"
+# "list"
 # Добавление нового элемента в список 
 my_dict["list"].append("Королев А.А.")
 print(my_dict["list"])
@@ -26,7 +26,7 @@ poped = my_dict["list"].pop(1)
 print(my_dict["list"])
 
 
-#"dict"
+# "dict"
 # Удаление ключа "fruit" из словаря
 popped = my_dict["dict"].pop("fruit")
 print(my_dict["dict"])
@@ -36,7 +36,7 @@ my_dict["dict"][("i am a tuple",)] = "And what have you achieved"
 print(my_dict["dict"])
 
 
-#set
+# set
 # Добавление нового элемента в множество
 my_dict["set"].add(6.6)
 
@@ -44,5 +44,5 @@ my_dict["set"].add(6.6)
 removed = my_dict["set"].pop()
 print(my_dict["set"])
 
-#вывод всего словаря
+# вывод всего словаря
 print(my_dict)
