@@ -5,6 +5,7 @@ my_dict = {
         "color": "green",
         "fruit": "orange",
         "sky": "blue",
+        "sky": "cloud",
         "flower": "chamomile",
         "apple": "Red"
     },
@@ -28,3 +29,6 @@ my_dict["set"].add(6.6)
 # Удаление любого элемента из множества
 removed = my_dict["set"].pop()
 print(my_dict["set"])
+
+#вывод всего словаря
+print(my_dict)
