@@ -4,7 +4,7 @@ my_dict = {
     "dict": {
         "color": "green",
         "fruit": "orange",
-        "sky": "cloud",
+        "sky": "blue",
         "flower": "chamomile",
         "apple": "Red"
     },
