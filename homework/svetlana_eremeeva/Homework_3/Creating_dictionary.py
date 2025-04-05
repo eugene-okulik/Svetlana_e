@@ -16,7 +16,7 @@ my_dict = {
 print(my_dict["tuple"][-1])
 
 # "list"
-# Добавление нового элемента в список 
+# Добавление нового элемента в список
 my_dict["list"].append("Королев А.А.")
 print(my_dict["list"])
 
