@@ -42,9 +42,3 @@ subjects = " ".join(subjects)
 text = "study these subjects: "
 
 print(students + text + subjects)
-
-
-
-
-
-
