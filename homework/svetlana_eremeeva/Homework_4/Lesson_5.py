@@ -13,22 +13,13 @@ text_a = "результат операции: 42"
 text_b = "результат операции: 514"
 text_c = "результат работы программы: 9"
 
-print(text_a.index("42"))
-print(text_b.index("514"))
-print(text_c.index("9"))
+number_a = int(text_a.split(":")[1].strip()) + 10
+number_b = int(text_b.split(":")[1].strip()) + 10
+number_c = int(text_c.split(":")[1].strip()) + 10
 
-number_1 = 20
-number_1 += 10
+sum_result = number_a + number_b + number_c
 
-number_2 = 20
-number_2 += 10
-
-number_3 = 20
-number_3 += 10
-
-sum = number_1 + number_2 + number_3
-
-print(sum)
+print(sum_result)
 
 
 # Задание_3 Список-Строка
