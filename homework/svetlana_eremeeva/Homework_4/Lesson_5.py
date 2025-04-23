@@ -6,7 +6,7 @@ name, last_name, city, phone, country = person
 
 print(name, last_name, city, phone, country)
 
-#Задание_2_срез
+# Задание_2_срез
 
 text_a = "результат операции: 42"
 text_b = "результат операции: 514"
