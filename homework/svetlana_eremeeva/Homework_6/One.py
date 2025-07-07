@@ -1,12 +1,18 @@
+secret_number = 50  # загадываем число
+
 while True:
     user_input = input('Угадайте число от 1 до 100: ')
 
-    if int(user_input) == 50:
+    try:
+        guess = int(user_input)
+    except ValueError:
+        print("Пожалуйста, введите целое число.")
+        continue
+
+    if guess == secret_number:
         print('Поздравляю! Вы угадали! 🎉')
         break
-    elif int(user_input) > 50:
-        print('Попробуйте снова')
-        print(user_input)
-    elif int(user_input) < 50:
-        print('Попробуйте снова')
-        print(user_input)
+    elif guess > secret_number:
+        print('Попробуйте меньшее число')
+    else:
+        print('Попробуйте большее число')
